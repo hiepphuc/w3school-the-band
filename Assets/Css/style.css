@@ -1,0 +1,263 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Common */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+/* -----------------------test------------------------------------- */
+.text-decor_underline {
+    text-decoration: underline;
+}
+.row-padding_32px-0 {
+    padding: 32px 0;
+}
+.row {
+    margin: 0 -8px;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col {
+    float: left;
+    padding: 0 8px;
+}
+.col-full {
+    width: 100%;
+}
+.col-half {
+    width: 50%;
+}
+.col-three {
+    width: calc(100% / 3);
+}
+.width_30px {
+    width: 30px;
+}
+.width_100 {
+    width: 100%;
+}
+.background-color_black {
+    background-color: #000;
+}
+.background-color_white {
+    background-color: #fff;
+}
+.background-color_red {
+    background-color: #f44336;
+}
+.color_white {
+    color: #fff;
+}
+.color_757575 {
+    color: #757575;
+}
+.mg-top_16px {
+    margin-top: 16px;
+}
+.mg-top_8px {
+    margin-top: 8px;
+}
+.mg-top_-3px {
+    margin-top: -4px;
+}
+.mg_25px-0 {
+    margin: 25px 0;
+}
+.mg_15px-0 {
+    margin: 15px 0;
+}
+.mg-left_16px {
+    margin-left: 16px;
+}
+.pd_64px-16px {
+    padding: 64px 16px;
+}
+.pd_16px-16px {
+    padding: 16px 16px;
+}
+.pd_8px-16px {
+    padding: 8px 16px;
+}
+.pd_4px-8px {
+    padding: 4px 8px;
+}
+.pd_11px {
+    padding: 11px;
+}
+.border_none {
+    border: none;
+}
+.border_1px-solid-ddd {
+    border: 1px solid #ddd;
+}
+.border_1px-solid-ccc {
+    border: 1px solid #ccc;
+}
+.border-radius_5px {
+    border-radius: 5px;
+}
+.border-radius_half {
+    border-radius: 50%;
+}
+.text_center {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+.font-size_30px {
+    font-size: 30px;
+}
+.font-size_18px {
+    font-size: 18px;
+}
+.font-size_16px {
+    font-size: 16px;
+}
+.font-weight_540 {
+    font-weight: 540;
+}
+.font-style_italic {
+    font-style: italic;
+}
+.line-height_145 {
+    line-height: 1.45; 
+}
+.letter-spacing_4px {
+    letter-spacing: 4px;
+}
+.display_block {
+    display: block;
+}
+.display_inline-block {
+    display: inline-block;
+}
+.opacity_06 {
+    opacity: 0.7;
+}
+.float_right {
+    float: right;
+}
+.clear_both {
+    clear: both;
+}
+.hover-bg_ccc-color_000:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+} 
+.hover-opacity_06:hover {
+    opacity: 0.6;
+}
+/* -----------------------test------------------------------------- */
+
+#header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+}
+#nav {
+    display: inline-block;
+}
+#nav > div {
+    display: inline-block;
+    position: relative;
+}
+#nav > div > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav div a {
+    display: block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;   
+}
+#nav > div:hover > a,
+#nav .subnav div:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+#nav .subnav {
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+#nav div:hover .subnav {
+    display: block;
+}
+#nav .subnav a {
+    color: #000;
+    line-height: 38px;
+    padding: 0 12px;
+
+}
+#nav .sort_down_icon {
+    position: absolute;
+    top: 25%;
+    right: 10px;
+}
+#header .search_button {
+    float: right;
+}
+#header .search_button:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search_icon {
+    color: #fff;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 20px;
+}
+
+
+/* ----------------------Slider------------------------------------ */
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/Assets/Images/Slider/Elaina2.png) top center / cover no-repeat;
+}
+#slider .text {
+    color: rgb(27, 21, 1);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 48px;
+    
+}
+#slider .title {
+    font-size: 24px;
+    font-family: 500;
+}
+#slider .description {
+    font-size: 15px;
+    margin-top: 24px;
+}
+/* -------------------------------Content----------------------------- */
+#content {
+    overflow: hidden;
+}
+
+
+
+
+#footer {
+
+}

@@ -1,0 +1,114 @@
+/* PC
+@media (min-width: 1024px) {
+}
+TABLET
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+MOBILE
+@media (max-width: 739px) {
+    
+} */
+/* Tablet & mobile */
+@media (max-width:1023px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    #nav .subnav a {
+        padding: 5px 16px;
+    }
+    #contact .contact-infor {
+        line-height: 2.0;
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    #footer .social_network_link {
+        font-size: 36px;
+    }
+    #footer .social_network_link a {
+        margin: 0 8px;
+    }
+    #footer .copyright {
+        font-size: 32px;
+        padding-top: 16px;
+    }
+}
+/* Pc */
+@media (min-width:1024px) {
+    /* big landscape tablets, laptops, and desktops */ 
+    .main_character-mg {
+        margin: 0 272px;
+    }
+    .characters-pd {
+        padding: 64px 272px;
+    }
+    .contact-mg {
+        margin: 0 272px;
+    }
+    .mg_0--24px-pc {
+        margin: 0 -24px;
+    }
+    #header .menu_button {
+        display: none;
+    }
+}
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    #header .menu_button {
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width:739px)  {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .mobile-full-width {
+        width: 100%;
+    }
+    .col {
+        float: none;
+        padding-bottom: 16px;
+    }
+    .col-half {
+        width: 100%;
+    }
+    .col-three {
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .menu_button {
+        float: right;
+        color: #fff;
+        line-height: 46px;
+        padding: 0 24px;
+        font-size: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header .menu_button:hover {
+        background-color: #f44336;
+    }
+    #header .search_button {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > div {
+        display: block; 
+    }
+    #nav div a {
+        padding: 1px 24px;
+    }
+    #nav > div:first-child {
+        display: inline-block; 
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: rgb(214, 207, 207);
+    }
+    #nav .subnav a {
+        padding: 5px 44px;
+    }
+}
+
